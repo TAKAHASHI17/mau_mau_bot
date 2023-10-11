@@ -20,8 +20,6 @@
 import logging
 from datetime import datetime
 
-from telegram import ParseMode, InlineKeyboardMarkup, \
-    InlineKeyboardButton, Update
 from telegram.ext import InlineQueryHandler, ChosenInlineResultHandler, \
     CommandHandler, MessageHandler, Filters, CallbackQueryHandler, CallbackContext
 from telegram.ext.dispatcher import run_async
